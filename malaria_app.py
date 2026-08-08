@@ -61,18 +61,22 @@ st.markdown("""
     .metric-card h2 { margin: 0.3rem 0 0 0; font-size: 1.9rem; color: #143d38; }
     .result-positive {
         background-color: #fdecea;
+        color: #7a1d12;
         padding: 1.2rem 1.5rem;
         border-radius: 10px;
         border-left: 6px solid #c0392b;
         margin: 1rem 0;
     }
+    .result-positive h3 { color: #a93226; }
     .result-negative {
         background-color: #eaf7ee;
+        color: #14532d;
         padding: 1.2rem 1.5rem;
         border-radius: 10px;
         border-left: 6px solid #1e8449;
         margin: 1rem 0;
     }
+    .result-negative h3 { color: #1e8449; }
     .danger-banner {
         background-color: #c0392b;
         color: #ffffff;
@@ -84,6 +88,7 @@ st.markdown("""
     .danger-banner a { color: #ffe3de; }
     .disclaimer {
         background-color: #fff8e6;
+        color: #c0392b;
         border: 1px solid #f0dfae;
         border-left: 6px solid #d4a017;
         padding: 1rem 1.3rem;
@@ -93,12 +98,13 @@ st.markdown("""
     }
     .info-box {
         background-color: #eaf3fb;
+        color: #12405e;
         padding: 1rem 1.3rem;
         border-radius: 10px;
         margin: 1rem 0;
         border-left: 6px solid #2471a3;
     }
-    .privacy-note { color: #5b6b6a; font-size: 0.88rem; margin-top: 0.5rem; }
+    .privacy-note { color: #7f8c8b; font-size: 0.88rem; margin-top: 0.5rem; }
 </style>
 """, unsafe_allow_html=True)
 
