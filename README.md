@@ -104,8 +104,18 @@ closed.
 - The tool does not account for pregnancy, chronic illness or medication —
   situations that need professional judgement
 
-## Running the application
+## How to run it
 
-Install the packages listed in the requirements file, then launch the
-application file with Streamlit. The app opens in the browser, where all six
-sections are available from the sidebar.
+1. **Get the project.** Clone this repository or download it as a ZIP file
+   and extract it anywhere on your computer.
+2. **Have Python ready.** Any recent version of Python (3.10 or newer) works.
+3. **Install the required packages.** Open a terminal inside the project
+   folder and run `pip install -r requirements.txt`. This installs everything
+   the app needs in one step.
+4. **Start the application.** In the same terminal, run
+   `streamlit run malaria_app.py`.
+5. **Use it in your browser.** The app opens automatically at
+   `http://localhost:8501`. Use the sidebar to move between the six sections,
+   and start with **Self-Assessment** to try the symptom questionnaire.
+
+To stop the application, return to the terminal and press `Ctrl + C`.
